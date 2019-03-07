@@ -1,0 +1,45 @@
+:root{
+    --rosaforte: #ff66c4;
+    --verde: #7ed957;
+    --rosaclaro: #ffe6f5;
+}
+
+#mainHeader{
+    background-color: var(--rosaclaro);
+    border:  1px solid rgba(0, 0, 0, 0.125);
+}
+
+.children{
+    float: left;
+}
+
+.nav{
+    background-color: var(--rosaforte);
+}
+
+#navbar{
+    border-color: var(--rosaforte);
+    border:  1px solid rgba(0, 0, 0, 0.125)
+}
+
+.nav ul li a{
+    color: #fff;    
+}
+
+.class{
+    border-color: var(--verde);
+}
+
+#servicos img{
+    border-radius: 50%;
+    border:  1px solid rgba(0, 0, 0, 0.125);
+}
+
+#servicosHeader{
+    border-color: var(--rosaforte);
+    border:  1px solid rgba(0, 0, 0, 0.125)
+}
+
+#id a{
+    text-decoration: none;
+}

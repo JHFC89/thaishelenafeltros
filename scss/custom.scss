@@ -1,0 +1,22 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "../bootstrap-4.0.0/scss/functions";
+@import "../bootstrap-4.0.0/scss/variables";
+@import "../bootstrap-4.0.0/scss/mixins";
+
+// Optional
+@import "../bootstrap-4.0.0/scss/reboot";
+@import "../bootstrap-4.0.0/scss/type";
+@import "../bootstrap-4.0.0/scss/images";
+@import "../bootstrap-4.0.0/scss/code";
+@import "../bootstrap-4.0.0/scss/grid";
+
+// Bootstrap and its default variables
+@import "../bootstrap-4.0.0/scss/bootstrap.scss";
+
+$theme-colors: (
+  "primary": #d900a3,
+  "danger": #ff4136
+);
