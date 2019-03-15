@@ -4,6 +4,10 @@
     --rosaclaro: #ffe6f5;
 }
 
+body{
+    background-image: url(../images/BGImage.png);
+}
+
 #mainHeader{
     background-color: var(--rosaclaro);
     border:  1px solid rgba(0, 0, 0, 0.125);
