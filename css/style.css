@@ -23,7 +23,7 @@ body{
 
 #navbar{
     border-color: var(--rosaforte);
-    border:  1px solid rgba(0, 0, 0, 0.125)
+    border:  1px solid rgba(0, 0, 0, 0.125);
 }
 
 .nav ul li a{

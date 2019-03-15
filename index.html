@@ -12,27 +12,35 @@
 
 
 </head>
-<body>
+<body id="body">
 
     <!-- nav -->
-    <nav class="nav" id="navbar">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top p-0" id="navbar">
         <div class="container">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                    <a href="#servicos" class="nav-link"><h4>Produtos</h4></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#portfolio" class="nav-link"><h4>Galeria</h4></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contato" class="nav-link"><h4>Contato</h4></a>
-                </li>
-            </ul>
+            <button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#body" class="nav-link"><h4>Início</h4> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#produtos" class="nav-link"><h4>Produtos</h4></a>
+                    </li>
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#galeria" class="nav-link"><h4>Galeria</h4></a>
+                    </li>
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#contato" class="nav-link"><h4>Contato</h4></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- showcase, antigo header -->
-
+    <div class="container d-hidden"><br></div>
     <header class="container-fluid" id="mainHeader">
         <div class="container" id="headerLine">         
             <div class="row align-items-center">
@@ -44,6 +52,7 @@
     </header>
 
     <!-- produtos -->
+    <div class="container d-hidden" id="produtos"><br></div>
     <div class="container mt-4 p-3 bg-secondary rounded" id="servicos">
         <div class="row">
             <div class="col text-center bg-primary text-white rounded ml-3 mr-3" id="servicosHeader">
@@ -101,7 +110,8 @@
     </div>
 
     <!-- galeria -->
-    <div class="container mt-4 p-3 bg-primary rounded" id="portfolio">
+    <div class="container d-hidden" id="galeria"><br></div>
+    <div class="container mt-4 p-3 bg-primary rounded">
         <div class="row">
             <div class="col text-center bg-secondary text-primary rounded ml-3 mr-3">
                 <h3>Galeria</h3>
@@ -157,7 +167,8 @@
     </div>
 
     <!-- contato -->
-    <div class="container mt-4 p-3 bg-secondary rounded" id="contato">
+    <div class="container d-hidden" id="contato"><br></div>
+    <div class="container mt-4 p-3 bg-secondary rounded">
         <div class="row justify-content-around">
             <div class="col-md-4 col-12 text-center bg-primary text-white rounded mb-3 mb-md-0" id="servicosHeader">
                 <h3>Contato</h3>
