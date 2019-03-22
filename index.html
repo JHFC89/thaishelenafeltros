@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 
 </head>
 <body id="body">
@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav nav-fill w-100">
                     <li class="nav-item active"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a href="#body" class="nav-link"><h4>Início</h4> <span class="sr-only">(current)</span></a>
+                        <a href="#body" class="nav-link"><h5 class="m-0">Início</h5> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a href="#produtos" class="nav-link"><h4>Produtos</h4></a>
+                        <a href="#produtos" class="nav-link"><h5 class="m-0">Produtos</h5></a>
                     </li>
                     <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a href="#galeria" class="nav-link"><h4>Galeria</h4></a>
+                        <a href="#galeria" class="nav-link"><h5 class="m-0">Galeria</h5></a>
                     </li>
                     <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a href="#contato" class="nav-link"><h4>Contato</h4></a>
+                        <a href="#contato" class="nav-link"><h5 class="m-0">Contato</h5></a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
     </nav>
 
     <!-- showcase, antigo header -->
-    <div class="container d-hidden"><br></div>
+    <div class="container d-hidden mt-4"></div>
     <header class="container-fluid" id="mainHeader">
         <div class="container" id="headerLine">         
             <div class="row align-items-center">
@@ -52,21 +52,28 @@
     </header>
 
     <!-- produtos -->
-    <div class="container d-hidden" id="produtos"><br></div>
+    <div class="container d-hidden" id="produtos"></div>
     <div class="container mt-4 p-3 bg-secondary rounded" id="servicos">
         <div class="row">
             <div class="col text-center bg-primary text-white rounded ml-3 mr-3" id="servicosHeader">
-                <h3>Produtos</h3>
+                <h4 class="mt-1">Produtos</h4>
             </div>
         </div>
         <div class="card-group">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-8 offset-2 offset-md-0">
                     <div class="card bg-primary text-white text-center mt-4">
-                        <div class="card-header">
-                            <h5 class="card-title">Histórias</h5>
+                        <h5 class="card-header">Histórias</h5>
+                        <img src="images/historias.jpg" alt="" class="card-img-top mt-2" width="200" height="200">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam. Modi alias praesentium ea consequuntur. </p>
                         </div>
-                        <img src="images/historias.jpg" alt="" class="card-img-top" width="200" height="200">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-8 offset-2 offset-md-0 mt-4">
+                    <div class="card bg-primary text-white text-center">
+                        <h5 class="card-header">Maternidade</h5>
+                        <img src="images/maternidade.jpg" alt="" class="card-img-top mt-2" width="200" height="200">
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam. Modi alias praesentium ea consequuntur.</p>
                         </div>
@@ -74,10 +81,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-8 offset-2 offset-md-0 mt-4">
                     <div class="card bg-primary text-white text-center">
-                        <div class="card-header">
-                            <h5 class="card-title">Maternidade</h5>
-                        </div>
-                        <img src="images/maternidade.jpg" alt="" class="card-img-top w-100" width="200" height="200">
+                        <h5 class="card-header">Lembranças</h5>
+                        <img src="images/lembrancas.jpg" alt="" class="card-img-top mt-2" width="200" height="200">
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam. Modi alias praesentium ea consequuntur.</p>
                         </div>
@@ -85,21 +90,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-8 offset-2 offset-md-0 mt-4">
                     <div class="card bg-primary text-white text-center">
-                            <div class="card-header">
-                                <h5 class="card-title">Lembranças</h5>
-                            </div>
-                        <img src="images/lembrancas.jpg" alt="" class="card-img-top" width="200" height="200">
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam. Modi alias praesentium ea consequuntur.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-8 offset-2 offset-md-0 mt-4">
-                    <div class="card bg-primary text-white text-center">
-                            <div class="card-header">
-                                <h5 class="card-title">Livros</h5>
-                            </div>
-                        <img src="images/livros.jpg" alt="" class="card-img-top" width="200" height="200">
+                        <h5 class="card-header">Livros</h5>
+                        <img src="images/livros.jpg" alt="" class="card-img-top mt-2" width="200" height="200">
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam. Modi alias praesentium ea consequuntur.</p>
                         </div>
@@ -110,11 +102,11 @@
     </div>
 
     <!-- galeria -->
-    <div class="container d-hidden" id="galeria"><br></div>
+    <div class="container d-hidden" id="galeria"></div>
     <div class="container mt-4 p-3 bg-primary rounded">
         <div class="row">
             <div class="col text-center bg-secondary text-primary rounded ml-3 mr-3">
-                <h3>Galeria</h3>
+                <h4 class="mt-1">Galeria</h4>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -167,20 +159,20 @@
     </div>
 
     <!-- contato -->
-    <div class="container d-hidden" id="contato"><br></div>
+    <div class="container d-hidden" id="contato"></div>
     <div class="container mt-4 p-3 bg-secondary rounded">
         <div class="row justify-content-around">
             <div class="col-md-4 col-12 text-center bg-primary text-white rounded mb-3 mb-md-0" id="servicosHeader">
-                <h3>Contato</h3>
+                <h4 class="mt-3">Contato</h4>
                 <!-- <img src="images/contato.jpg" alt="" class="imag-fluid w-100 rounded mt-md-5 mb-4 mb-md-0" > -->
-                <i class="fas fa-comments fa-10x mt-md-5 mb-4 mb-md-0"></i>
+                <i class="fas fa-comments fa-10x "></i>
             </div>
             <div class="col-md-7 col-12 text-center bg-primary text-white rounded" id="servicosHeader">
                 <ul class="list-unstyled text-left mt-3">
-                    <li class="h4"><i class="fab fa-whatsapp-square fa-3x align-middle"></i> (16) 9-9999-9999</li>
-                    <li class="h4"><i class="fas fa-envelope-square fa-3x align-middle"></i > email@email.com</li>
+                    <li class="h5"><i class="fab fa-whatsapp-square fa-3x align-middle"></i> (16) 9-9999-9999</li>
+                    <li class="h5"><i class="fas fa-envelope-square fa-3x align-middle"></i > email@email.com</li>
                     <!-- <li class="h3"><i class="fab fa-facebook-square fa-3x align-middle"></i> <a href="http://facebook.com" target="_blank" class="text-white"> facebook/face</a></li> -->
-                    <li class="h4"><i class="fab fa-instagram fa-3x align-middle"></i> <a href="http://instagram.com" target="_blank" class="text-white"> instagram/insta </a></li>
+                    <li class="h5"><i class="fab fa-instagram fa-3x align-middle"></i> <a href="http://instagram.com" target="_blank" class="text-white"> instagram/insta </a></li>
                 </ul>
             </div>
         </div>
@@ -189,7 +181,7 @@
     <!-- footer -->
 
     <footer class="bg-primary text-white text-center mt-4 p-2">
-        <h5>ArieteWeb 2019</h5>
+        ArieteWeb 2019
     </footer>
 
     <!-- modal -->

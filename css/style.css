@@ -6,6 +6,7 @@
 
 body{
     background-image: url(../images/BGImage.png);
+    font-family: 'Cabin Sketch', cursive;
 }
 
 #mainHeader{
