@@ -9,15 +9,6 @@ body{
     font-family: 'Cabin Sketch', cursive;
 }
 
-#mainHeader{
-    background-color: var(--rosaclaro);
-    border:  1px solid rgba(0, 0, 0, 0.125);
-}
-
-.children{
-    float: left;
-}
-
 .nav{
     background-color: var(--rosaforte);
 }
@@ -47,4 +38,8 @@ body{
 
 #id a{
     text-decoration: none;
+}
+
+.contato p{
+    font-size: 0.75rem;
 }
