@@ -43,3 +43,41 @@ body{
 .contato p{
     font-size: 0.75rem;
 }
+
+
+@media(max-width: 1000px) and (min-width: 576px){
+    .card-deck{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+}
+
+@media(max-width: 575px){
+    .card-deck{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+    }
+
+    .card-img-top{
+        padding: 0 30px;
+    }
+
+    #servicos img{
+        border:  0px solid rgba(0, 0, 0, 0.125);
+    }
+    .balao{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px) and (min-width: 768px){
+    .card-img-top{
+        padding: 0 50px;
+    }
+
+    #servicos img{
+        border:  0px solid rgba(0, 0, 0, 0.125);
+    }
+}
